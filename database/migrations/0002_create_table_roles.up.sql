@@ -1,0 +1,1 @@
+create table if not exists roles(id int, role varchar, salary int, foreign key(id) references emp(id));
